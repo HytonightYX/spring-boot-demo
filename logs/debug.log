@@ -592,3 +592,93 @@
 2018-12-10 22:29:50.020  WARN 6568 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2018-12-10 22:29:50.412  INFO 6568 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 2018-12-10 22:29:50.424  INFO 6568 --- [main] com.hsy.SpringBootDemoApplication        : Started SpringBootDemoApplication in 8.481 seconds (JVM running for 10.404)
+2018-12-10 22:41:33.542  INFO 6568 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-10 22:41:33.542  INFO 6568 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-12-10 22:41:33.553  INFO 6568 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2018-12-10 22:46:10.088  INFO 17948 --- [main] com.hsy.SpringBootDemoApplication        : Starting SpringBootDemoApplication on DESKTOP-TJP927R with PID 17948 (C:\Users\HytonightYX\Documents\code\Java\spring-boot-demo\target\classes started by HytonightYX in C:\Users\HytonightYX\Documents\code\Java\spring-boot-demo)
+2018-12-10 22:46:10.094  INFO 17948 --- [main] com.hsy.SpringBootDemoApplication        : The following profiles are active: dev
+2018-12-10 22:46:11.532  INFO 17948 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-10 22:46:11.649  INFO 17948 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 103ms. Found 1 repository interfaces.
+2018-12-10 22:46:12.148  INFO 17948 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a830e9a0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-10 22:46:12.526  INFO 17948 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-12-10 22:46:12.549  INFO 17948 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-10 22:46:12.550  INFO 17948 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-10 22:46:12.557  INFO 17948 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\libnvvp;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\lib\x64;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\MySQL-8.0.12\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\maven-3.5.4\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Gradle\gradle-4.10.2\bin;;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Brackets\command;C:\Users\HytonightYX\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\HytonightYX\AppData\Local\Programs\Python\Python36\;C:\Users\HytonightYX\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\HytonightYX\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm 2018.3\bin;;.]
+2018-12-10 22:46:12.741  INFO 17948 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-10 22:46:12.741  INFO 17948 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2513 ms
+2018-12-10 22:46:12.919  INFO 17948 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-12-10 22:46:13.051  INFO 17948 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-12-10 22:46:13.295  INFO 17948 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-12-10 22:46:13.367  INFO 17948 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2018-12-10 22:46:13.369  INFO 17948 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-12-10 22:46:13.524  INFO 17948 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-12-10 22:46:13.709  INFO 17948 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-12-10 22:46:14.364  INFO 17948 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-10 22:46:14.783  INFO 17948 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-12-10 22:46:15.099  INFO 17948 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-10 22:46:15.138  WARN 17948 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-12-10 22:46:15.370  INFO 17948 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-10 22:46:15.373  INFO 17948 --- [main] com.hsy.SpringBootDemoApplication        : Started SpringBootDemoApplication in 6.392 seconds (JVM running for 8.014)
+2018-12-10 22:46:34.502  INFO 17948 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-10 22:46:34.504  INFO 17948 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-12-10 22:46:34.520  INFO 17948 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2018-12-10 22:46:57.536  INFO 11864 --- [main] com.hsy.SpringBootDemoApplication        : Starting SpringBootDemoApplication on DESKTOP-TJP927R with PID 11864 (C:\Users\HytonightYX\Documents\code\Java\spring-boot-demo\target\classes started by HytonightYX in C:\Users\HytonightYX\Documents\code\Java\spring-boot-demo)
+2018-12-10 22:46:57.541  INFO 11864 --- [main] com.hsy.SpringBootDemoApplication        : The following profiles are active: dev
+2018-12-10 22:46:58.678  INFO 11864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-10 22:46:58.772  INFO 11864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84ms. Found 1 repository interfaces.
+2018-12-10 22:46:59.229  INFO 11864 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$19fde07f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-10 22:46:59.552  INFO 11864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-12-10 22:46:59.573  INFO 11864 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-10 22:46:59.573  INFO 11864 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-10 22:46:59.581  INFO 11864 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\libnvvp;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\lib\x64;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\MySQL-8.0.12\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\maven-3.5.4\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Gradle\gradle-4.10.2\bin;;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Brackets\command;C:\Users\HytonightYX\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\HytonightYX\AppData\Local\Programs\Python\Python36\;C:\Users\HytonightYX\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\HytonightYX\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm 2018.3\bin;;.]
+2018-12-10 22:46:59.743  INFO 11864 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-10 22:46:59.743  INFO 11864 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2105 ms
+2018-12-10 22:46:59.916  INFO 11864 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-12-10 22:47:00.030  INFO 11864 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-12-10 22:47:00.201  INFO 11864 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-12-10 22:47:00.269  INFO 11864 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2018-12-10 22:47:00.271  INFO 11864 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-12-10 22:47:00.415  INFO 11864 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-12-10 22:47:00.583  INFO 11864 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-12-10 22:47:01.274  INFO 11864 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-10 22:47:01.629  INFO 11864 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-12-10 22:47:01.995  INFO 11864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-10 22:47:02.032  WARN 11864 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-12-10 22:47:02.259  INFO 11864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-10 22:47:02.262  INFO 11864 --- [main] com.hsy.SpringBootDemoApplication        : Started SpringBootDemoApplication in 5.64 seconds (JVM running for 7.261)
+2018-12-10 22:51:01.078  INFO 11864 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-10 22:51:01.079  INFO 11864 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-12-10 22:51:01.089  INFO 11864 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2018-12-10 22:53:14.753  INFO 2308 --- [main] com.hsy.SpringBootDemoApplication        : Starting SpringBootDemoApplication on DESKTOP-TJP927R with PID 2308 (C:\Users\HytonightYX\Documents\code\Java\spring-boot-demo\target\classes started by HytonightYX in C:\Users\HytonightYX\Documents\code\Java\spring-boot-demo)
+2018-12-10 22:53:14.758  INFO 2308 --- [main] com.hsy.SpringBootDemoApplication        : The following profiles are active: dev
+2018-12-10 22:53:15.930  INFO 2308 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-10 22:53:16.030  INFO 2308 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89ms. Found 1 repository interfaces.
+2018-12-10 22:53:16.606  INFO 2308 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5490092a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-10 22:53:17.004  INFO 2308 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-12-10 22:53:17.029  INFO 2308 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-10 22:53:17.030  INFO 2308 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-10 22:53:17.038  INFO 2308 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\libnvvp;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\lib\x64;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\MySQL-8.0.12\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\maven-3.5.4\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Gradle\gradle-4.10.2\bin;;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Brackets\command;C:\Users\HytonightYX\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\HytonightYX\AppData\Local\Programs\Python\Python36\;C:\Users\HytonightYX\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\HytonightYX\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm 2018.3\bin;;.]
+2018-12-10 22:53:17.208  INFO 2308 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-10 22:53:17.209  INFO 2308 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2355 ms
+2018-12-10 22:53:17.370  INFO 2308 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-12-10 22:53:17.485  INFO 2308 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-12-10 22:53:17.660  INFO 2308 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-12-10 22:53:17.744  INFO 2308 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2018-12-10 22:53:17.746  INFO 2308 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-12-10 22:53:17.892  INFO 2308 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-12-10 22:53:18.055  INFO 2308 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-12-10 22:53:18.683  INFO 2308 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-10 22:53:19.048  INFO 2308 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-12-10 22:53:19.345  INFO 2308 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-10 22:53:19.383  WARN 2308 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-12-10 22:53:19.684  INFO 2308 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-10 22:53:19.687  INFO 2308 --- [main] com.hsy.SpringBootDemoApplication        : Started SpringBootDemoApplication in 5.809 seconds (JVM running for 7.132)
+2018-12-10 22:53:22.526  INFO 2308 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-10 22:53:22.528  INFO 2308 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-12-10 22:53:22.542  INFO 2308 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms

@@ -37,7 +37,7 @@ iterStat:
             <tr th:each="book,iterStat:${books}">
                 <td th:text="${iterStat.count}">1</td>
                 <!--<td><a th:text="${book.name}" th:href="@{/books/{id}(id=${book.id})}">书名</a></td>-->
-                <td ><a href="#" th:text="${book.name}" th:href="@{'/books/'+${book.id}}"></a></td>
+                <td style="word-break: keep-all"><a href="#" th:text="${book.name}" th:href="@{'/books/'+${book.id}}"></a></td>
                 <td th:text="${book.author}">作者</td>
                 <td th:text="${book.description}">说明</td>
                 <td th:switch="${book.status}" style="min-width: 60px">
