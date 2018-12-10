@@ -409,4 +409,7 @@ iterStat:
 ```
 
 加一个返回按钮
-
+```html
+<!--添加返回按钮-->
+        <a href="javascript:history.go(-1)" class="btn btn-default">返回</a>
+```
