@@ -1,0 +1,17 @@
+server:
+  servlet:
+    # 设置根目录
+    context-path: /api
+  # 设置内置tomcat端口号
+  port: 8081
+
+# 控制台输出级别.
+
+logging:
+  level:
+    # --只有警告级别以上才输出, INFO 之类的不会输出
+    root: warn
+    com.lrm: info
+  file: logs/my.log
+
+

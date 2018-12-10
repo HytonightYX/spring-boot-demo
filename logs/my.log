@@ -1,0 +1,41 @@
+2018-12-05 20:50:11.151  INFO 1076 --- [main] com.hsy.SpringBootDemoApplication        : Starting SpringBootDemoApplication on DESKTOP-TJP927R with PID 1076 (C:\Users\HytonightYX\Documents\code\Java\spring-boot-demo\target\classes started by HytonightYX in C:\Users\HytonightYX\Documents\code\Java\spring-boot-demo)
+2018-12-05 20:50:11.158 DEBUG 1076 --- [main] com.hsy.SpringBootDemoApplication        : Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2018-12-05 20:50:11.164  INFO 1076 --- [main] com.hsy.SpringBootDemoApplication        : No active profile set, falling back to default profiles: default
+2018-12-05 20:50:14.440  INFO 1076 --- [main] com.hsy.SpringBootDemoApplication        : Started SpringBootDemoApplication in 4.191 seconds (JVM running for 5.724)
+2018-12-05 21:05:35.749  INFO 28868 --- [main] com.hsy.SpringBootDemoApplication        : Starting SpringBootDemoApplication on DESKTOP-TJP927R with PID 28868 (C:\Users\HytonightYX\Documents\code\Java\spring-boot-demo\target\classes started by HytonightYX in C:\Users\HytonightYX\Documents\code\Java\spring-boot-demo)
+2018-12-05 21:05:35.753  INFO 28868 --- [main] com.hsy.SpringBootDemoApplication        : No active profile set, falling back to default profiles: default
+2018-12-05 21:05:37.653  INFO 28868 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2018-12-05 21:05:37.678  INFO 28868 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-05 21:05:37.679  INFO 28868 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-05 21:05:37.687  INFO 28868 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\libnvvp;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\lib\x64;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\MySQL-8.0.12\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\maven-3.5.4\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Gradle\gradle-4.10.2\bin;;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\HytonightYX\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\HytonightYX\AppData\Local\Programs\Python\Python36\;C:\Users\HytonightYX\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\HytonightYX\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm 2018.3\bin;;.]
+2018-12-05 21:05:37.831  INFO 28868 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring embedded WebApplicationContext
+2018-12-05 21:05:37.832  INFO 28868 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1895 ms
+2018-12-05 21:05:38.080  INFO 28868 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-05 21:05:38.294  INFO 28868 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/api'
+2018-12-05 21:05:38.301  INFO 28868 --- [main] com.hsy.SpringBootDemoApplication        : Started SpringBootDemoApplication in 3.509 seconds (JVM running for 5.136)
+2018-12-05 21:05:45.915  INFO 28868 --- [http-nio-8082-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/api]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-05 21:05:45.917  INFO 28868 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-12-05 21:05:45.925  INFO 28868 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2018-12-05 21:48:34.728  WARN 8804 --- [http-nio-8082-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2018-12-05 21:49:28.900  WARN 8804 --- [http-nio-8082-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2018-12-05 21:50:44.208  WARN 16940 --- [http-nio-8082-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2018-12-05 22:21:17.927  WARN 18636 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2018-12-05 22:21:17.993 ERROR 18636 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+

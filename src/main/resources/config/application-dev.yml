@@ -1,0 +1,26 @@
+server:
+  port: 8080
+#servlet:
+    # 设置根目录
+    #context-path: /api
+  # 设置内置tomcat端口号
+
+# 控制台输出级别.
+logging:
+  level:
+    # --只有警告级别以上才输出, INFO 之类的不会输出
+    root: info
+    com.lrm: debug
+  file: logs/debug.log
+
+# 配置Spring-Data-JPA
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/book?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT
+    username: root
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
