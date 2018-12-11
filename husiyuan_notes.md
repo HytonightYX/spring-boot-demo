@@ -413,3 +413,25 @@ iterStat:
 <!--添加返回按钮-->
         <a href="javascript:history.go(-1)" class="btn btn-default">返回</a>
 ```
+
+
+
+## 书单列表首页 "新增书目按钮"
+```java
+    /**
+     * 添加一条书单信息
+     *
+     * @return
+     */
+    @RequestMapping("/input")
+    public String getBook(Model model) {
+        return "input";
+    }
+```
+
+books.html中使用thymeleaf #mvc 来跳转到input.html
+```html
+ <p class="text-right"><a th:href="${#mvc.url('BC#getBook').build()}">添加书目</a></p>
+```
+
+

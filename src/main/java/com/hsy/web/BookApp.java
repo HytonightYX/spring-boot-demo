@@ -55,6 +55,7 @@ public class BookApp {
 
     //也可以像这样, spring自动将name, author等一系列
     //参数与实体对应, 直接保存
+
     @PostMapping("/books")
     public Book post(Book book) {
         return bookService.save(book);
@@ -100,6 +101,7 @@ public class BookApp {
 
         return bookService.save(book);
     }
+
 
     /**
      * 删除一条书单

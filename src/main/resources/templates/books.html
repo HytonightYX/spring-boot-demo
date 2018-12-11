@@ -22,7 +22,9 @@ iterStat:
 -->
 
     <div class="container" style="max-width: 1500px">
+
         <h2>书单列表</h2>
+        <p class="text-right"><a class="btn btn-primary" th:href="${#mvc.url('BC#getBook').build()}" role="button">新增书目</a></p>
         <table class="table table-bordered table-striped table-hover">
             <thead>
             <tr>
@@ -31,6 +33,7 @@ iterStat:
                 <th>作者</th>
                 <th>说明</th>
                 <th>状态</th>
+                <!--<th>编辑</th>-->
             </tr>
             </thead>
             <tbody>
@@ -46,6 +49,9 @@ iterStat:
                     <span th:case="2">已读</span>
                     <span th:case="*">未知</span>
                 </td>
+                <!--<td>-->
+                    <!--<span>标记为已读</span>-->
+                <!--</td>-->
             </tr>
             </tbody>
         </table>

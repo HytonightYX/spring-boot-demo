@@ -2,9 +2,11 @@
 udemy course 书单管理系统
 
 #环境: 
+
 Java 8 Idea 2018 MySQL 5.7
 
 #技术栈:
+
 SpringBoot + Spring-Data JPA + maven 
 
 前端渲染:thymeleaf + bootstrap
@@ -13,15 +15,18 @@ SpringBoot + Spring-Data JPA + maven
 
 
 #实现效果: 
+
 显示所有书单, 单击书名进入详情页面, 单击返回按钮返回书单列表
 
 #效果图:
+
 ![image](images/show1.png)
 
 
 ![image](images/show2.png)
 
 #下一步
+
 在书单列表新添加列, 可以根据已有的状态显示不同的修改按钮
 
 例如, 如果该书未读, 则显示"标记为在读"

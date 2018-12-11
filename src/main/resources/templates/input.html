@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>添加书目</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container" style="max-width: 600px">
+        <h2 class="page-header">添加书目</h2>
+        <div class="well">
+            <form target="_parent" action="/api/v1/books" method="post">
+                <div class="form-group">
+                    <label for="nameId">书名</label>
+                    <input type="text" name="name" id="nameId" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="authorId">作者</label>
+                    <input type="text" name="author" id="authorId" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="descriptionId">描述</label>
+                    <input type="text" name="description" id="descriptionId" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="statusId">状态</label>
+                    <select name="status" id="statusId" class="form-control">
+                        <option value="0">想读</option>
+                        <option value="1">在读</option>
+                        <option value="2">已读</option>
+                    </select>
+                </div>
+                <p class="text-center">
+                    <button type="submit" class="btn btn-primary">提交</button>
+                </p>
+            </form>
+        </div>
+    </div>
+
+<!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+<!--<script th:src="@{/js/bootstrap.js}"></script>-->
+</body>
+</html>
