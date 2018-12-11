@@ -1,4 +1,4 @@
-# spring-boot 非常简单(lou)的书单管理系统
+# spring-boot 非常简单的书单管理系统
 udemy course 书单管理系统
 
 # 环境:
