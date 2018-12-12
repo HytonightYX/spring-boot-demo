@@ -16,28 +16,30 @@
     <div class="container" style="max-width: 600px">
         <h2 class="page-header">添加书目</h2>
         <div class="well">
-            <form target="_parent" action="/api/v1/books" method="post">
+            <form action="#" th:action="@{/books}" th:object="${book}" method="post">
+                <input type="hidden" th:value="*{id}" name="id">
+
                 <div class="form-group">
                     <label for="nameId">书名</label>
-                    <input type="text" name="name" id="nameId" class="form-control">
+                    <input type="text" name="name" id="nameId" class="form-control" th:field="*{name}">
                 </div>
 
                 <div class="form-group">
                     <label for="authorId">作者</label>
-                    <input type="text" name="author" id="authorId" class="form-control">
+                    <input type="text" name="author" id="authorId" class="form-control" th:field="*{author}">
                 </div>
 
                 <div class="form-group">
                     <label for="descriptionId">描述</label>
-                    <input type="text" name="description" id="descriptionId" class="form-control">
+                    <input type="text" name="description" id="descriptionId" class="form-control" th:field="*{description}">
                 </div>
 
                 <div class="form-group">
                     <label for="statusId">状态</label>
                     <select name="status" id="statusId" class="form-control">
-                        <option value="0">想读</option>
-                        <option value="1">在读</option>
-                        <option value="2">已读</option>
+                        <option value="0" th:selected="(*{status}=='0')">未读</option>
+                        <option value="1" th:selected="(*{status}=='1')">在读</option>
+                        <option value="2" th:selected="(*{status}=='2')">已读</option>
                     </select>
                 </div>
                 <p class="text-center">

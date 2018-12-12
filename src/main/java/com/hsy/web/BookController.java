@@ -7,7 +7,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 
 import java.util.List;
 import java.util.NoSuchElementException;
@@ -65,12 +65,56 @@ public class BookController {
 
     /**
      * 添加一条书单信息
-     *
+     * 跳转到input页面
      * @return
      */
-    @RequestMapping("/input")
-    public String getBook(Model model) {
+    @GetMapping("/books/input")
+    public String inputPage(Model model) {
+        model.addAttribute("book", new Book());
         return "input";
     }
 
+
+    /**
+     * 提交一个书单信息
+     * @param book
+     * @return
+     */
+    @PostMapping("/books")
+    public String post(Book book) {
+        bookService.save(book);
+        /**
+         * 只写下面这一行是不行的
+         */
+//        return "books";
+        /**
+         * 复制一遍下面三行很不优雅
+         */
+//        List<Book> books = bookService.findAll();
+//        model.addAttribute("books", books);
+//        return "books";
+
+        /**
+         * 使用下面这种写法:
+         * 重定向
+         */
+        return "redirect:/books";
+    }
+
+
+    /**
+     * 更新书目
+     * 跳转到编辑页, 和新建不同的是本页面已经填充了原始待修改数据
+     * @param id
+     * @param model
+     * @return
+     */
+    @GetMapping("/books/{id}/input")
+    public String editBook(@PathVariable long id, Model model) {
+        //获取一个book实体对象
+        Book book = bookService.findOne(id);
+        //将这个实体对象返回
+        model.addAttribute("book", book);
+        return "input";
+    }
 }
